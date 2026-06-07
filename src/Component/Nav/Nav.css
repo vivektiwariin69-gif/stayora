@@ -285,7 +285,7 @@
 @media (max-width:500px){
 
     .logo img{
-        /* width: 42px; */
+        width: 130px;
     }
 
     .search input{

@@ -31,12 +31,13 @@
     line-height: 1.8;
 }
 
-.footer-section a{
+.ha12 {
     display: block;
     color: #cfcfcf;
     text-decoration: none;
     margin-bottom: 10px;
     transition: 0.3s;
+    
 }
 
 .footer-section a:hover{

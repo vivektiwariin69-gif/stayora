@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -26,10 +27,13 @@ function Footer() {
         <div className="footer-section">
           <h3>Quick Links</h3>
 
-          <a href="/">Home</a>
-          <a href="/listing">Add Listing</a>
-          <a href="/contact">Contact</a>
-          <a href="/login">Login</a>
+          
+
+          <Link to={""}><div className=" ha12 ham3">Home</div></Link>
+          <Link to={"/Listing"}><div className=" ha12 ham3">List your home</div></Link>
+          <Link to={"/contact"}><div className=" ha12 ham4">Contact us</div></Link>
+          <Link to={"/Login"}>
+        <div className=" ha12 ham1">Login</div></Link> 
         </div>
 
         <div className="footer-section">
