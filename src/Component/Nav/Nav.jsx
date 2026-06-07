@@ -35,7 +35,7 @@ function Nav() {
       <div className="nav1">
        <Link to={""}>
        <div className="logo">
-          <img src={logo} alt="" width="50px" />
+          <img src={logo} alt="" width="200px" height = "150px"/>
           <h1></h1>
         </div></Link> 
         <div className="search">
