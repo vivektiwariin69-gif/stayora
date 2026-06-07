@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Signup.css"
 import { MdPersonAddAlt1 } from "react-icons/md";
+import { FaUserPlus } from "react-icons/fa";
+
+
 
 function Signup() {
   return (
@@ -15,7 +18,8 @@ function Signup() {
           
         }}>
       <form action="">
-        <span id='Signuptitle'>Sign Up Page</span>
+        <span id='Signuptitle'>Sign Up Page
+          <br /> <FaUserPlus /></span>
 
         <div className="list">
         <label htmlFor="name">Username</label>
