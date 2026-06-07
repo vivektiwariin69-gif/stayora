@@ -1,0 +1,119 @@
+#login {
+  width: 100%;
+  min-height: calc(100vh - 150px);
+    padding: 30px 20px;
+/* navbar ke niche */
+  padding-bottom: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  background: linear-gradient(
+    135deg,
+    #f8f8f8,
+    #ffffff
+  );
+}
+
+#login form {
+  width: 450px;
+  background: white;
+
+  padding: 40px;
+  border-radius: 25px;
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#logintitle {
+  font-size: 42px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+}
+
+#subtitle {
+  text-align: center;
+  color: gray;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+#login .list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#login .list label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+}
+
+#login .list input {
+  width: 100%;
+  padding: 14px;
+
+  border: 1px solid #ddd;
+  border-radius: 12px;
+
+  font-size: 16px;
+  outline: none;
+
+  transition: 0.3s;
+}
+
+#login .list input:focus {
+  border-color: red;
+  box-shadow: 0 0 10px rgba(255,0,0,0.15);
+}
+
+#loginbtn {
+  width: 100%;
+  padding: 14px;
+
+  background: red;
+  color: white;
+
+  border: none;
+  border-radius: 50px;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#loginbtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255,0,0,0.25);
+}
+
+#loginbtn svg {
+  width: 22px;
+  height: 22px;
+}
+
+#bottomtext {
+  text-align: center;
+  color: #555;
+}
+
+#bottomtext a {
+  color: red;
+  text-decoration: none;
+  font-weight: 600;
+}
